@@ -1,0 +1,38 @@
+{
+  "name": "romeyk/yii2-fullcalendar",
+  "description": "Yii2 Fullcalendar Widgets",
+  "type": "yii2-extension",
+  "keywords": ["yii", "calendar", "widget"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Roman Chuykov",
+      "email": "mail@romeyk.org.ua"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/romeyk/yii2-fullcalendar/issues",
+    "source": "https://github.com/romeyk/yii2-fullcalendar"
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "yiisoft/yii2": "~2.0.18",
+    "npm-asset/fullcalendar": "5.1.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "romeyk\\fullcalendar\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
